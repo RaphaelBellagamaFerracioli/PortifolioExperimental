@@ -1,6 +1,4 @@
 .img-fluid {
-
-
     border-radius: 11px;
 }
 .section{
@@ -15,4 +13,9 @@
     perspective: none;
     -webkit-transition: opacity .2s;
     transition: opacity .2s;
+}
+p{
+
+    font-size: large;
+
 }
