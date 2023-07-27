@@ -1,3 +1,34 @@
+
+/* Estilos para telas maiores */
+.heading-jumbo .titular {
+  margin-left: 0.5em;
+  margin-right: 3em;
+  font-size: 60px;
+  color: #1a1c20;
+}
+
+@media only screen and (max-width: 600px) {
+  .titular{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    display: block;
+  }
+}
+
+.paragraph-light {
+  /* Estilos para o parágrafo */
+  line-height: 25px;
+  font-size: 25px;
+  margin-right: 3em;
+  margin-left: 1em;
+}
+
+
+
 .img-fluid {
     border-radius: 11px;
 }
@@ -23,27 +54,26 @@ p{
 @keyframes anima_introText {
     0% {
       opacity: 0;
-      transform: translateX(60%);
-      transform: translateY(30%);
+      transform: translateX(-10%);
+      transform: translateY(-20%);
     }
-    25% {
-      transform: translateY(0%);
-    }
+
     50% {
       opacity: 0.8;
-      transform: translateY(20%);
+      
     };
     100% {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateX(0%);
+      transform: translateY(0%);
     }
 }
 
 .introText{
 
     animation-name: anima_introText;
-    animation-duration: 3s;
-    animation-iteration-count: initial;
+    animation-duration:3s;
+    animation-iteration-count: inherit;
 
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
@@ -64,27 +94,34 @@ p{
 
 @keyframes anima_introContainer{
   0% {
-      opacity: 0.5;
-    transform: translateX(-50%);
+    opacity: 0;
+    transform: translateX(-10%);
+    transform: translateY(-20%);
   }
   50% {
-    opacity: 0.2;
-  transform: translateX(-10%);
+    opacity: 0.5;
+
+    transform: translateX(0%);
+    transform: translateY(0%);
+
 }
 
   100% {
-    transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
 
 .introContainer{
 
-  animation-name: anima_introPerfil;
-  animation-duration: 1.5s;
+  animation-name: anima_introContainer;
+  animation-duration: 4s;
   animation-iteration-count: initial;
-
+  
 }
+
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 
 

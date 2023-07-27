@@ -4,3 +4,12 @@
     height: 28em;
     margin: 2em;
 }
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+}
