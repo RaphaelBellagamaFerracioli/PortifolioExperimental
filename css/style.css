@@ -1,15 +1,25 @@
 
+/* Botão do menu */
+@media only screen and (max-width: 600px) {
+.botao .btn .btn-dark{
+
+  font-size: 30px;
+  
+}
+}
+
 /* Estilos para telas maiores */
 .heading-jumbo .titular {
   margin-left: 0.5em;
   margin-right: 3em;
-  font-size: 60px;
+  font-size: 40px;
   color: #1a1c20;
 }
 
 @media only screen and (max-width: 600px) {
   .titular{
-    font-size: 10px;
+    font-size: 40px;
+    margin: 0.5em;
   }
 }
 

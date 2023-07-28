@@ -1,3 +1,148 @@
+
+@keyframes anima_introText {
+    0% {
+      opacity: 0;
+      transform: translateX(-10%);
+      transform: translateY(-20%);
+    }
+
+    50% {
+      opacity: 0.8;
+      
+    };
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+      transform: translateY(0%);
+    }
+}
+
+.introText{
+
+    animation-name: anima_introText;
+    animation-duration:3s;
+    animation-iteration-count: inherit;
+
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+@keyframes anima_introPerfil {
+    0% {
+        opacity: 0.4;
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+@keyframes anima_introContainer{
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+    transform: translateY(-20%);
+  }
+  50% {
+    opacity: 0.5;
+
+    transform: translateX(0%);
+    transform: translateY(0%);
+
+}
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+    transform: translateY(0%);
+  }
+}
+
+
+.introContainer{
+
+  animation-name: anima_introContainer;
+  animation-duration: 4s;
+  animation-iteration-count: initial;
+  
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.introPerfil{
+
+    animation-name: anima_introPerfil;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+@keyframes anima_introNav {
+    0% {
+      opacity: 1;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.introNav{
+
+    animation-name: anima_introNav;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+
+}
+
+
+@keyframes anima_Canvas{
+    0% {
+
+        background-image: url('https://picsum.photos/id/1015/1500/1000');
+        
+      }
+      25% {
+
+        opacity: 0.8;
+        background-image: url('https://picsum.photos/id/1019/1500/1000');
+       
+      }
+      50% {
+        opacity: 1;
+        background-image: url('https://picsum.photos/id/1016/1500/1000');
+      }
+      75% {
+        background-image: url('https://picsum.photos/id/1000/1500/1000');
+      }
+      100% {
+        background-image: url('https://picsum.photos/id/1015/1500/1000');
+      }
+    }
+  
+  
+  .introCanvas{
+  
+            width: 100%;
+            height: 100%;
+            animation: anima_Canvas 13s infinite;           
+            display: flex;           
+            align-items: center;           
+            text-align: center;           
+            background-position: center center;            
+            background-repeat: no-repeat;           
+            background-attachment: fixed;
+            background-size: cover;
+  }
+  
+/* Animaçoes acima */
 .card {
 
     width: 36rem;
