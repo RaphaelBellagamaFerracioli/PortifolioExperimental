@@ -1,4 +1,6 @@
 
+
+
 @keyframes anima_introText {
     0% {
       opacity: 0;
@@ -126,21 +128,6 @@
         background-image: url('https://picsum.photos/id/1015/1500/1000');
       }
     }
-  
-  
-  .introCanvas{
-  
-            width: 100%;
-            height: 100%;
-            animation: anima_Canvas 13s infinite;           
-            display: flex;           
-            align-items: center;           
-            text-align: center;           
-            background-position: center center;            
-            background-repeat: no-repeat;           
-            background-attachment: fixed;
-            background-size: cover;
-  }
   
 /* Animaçoes acima */
 .card {
