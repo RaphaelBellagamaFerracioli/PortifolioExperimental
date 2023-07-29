@@ -1,3 +1,11 @@
+/* Componentes do formulario */
+@media only screen and (max-width: 750px) {
+.FormularioCont{
+
+  display: block;
+
+  }
+}
 
 /* Botão do menu */
 @media only screen and (max-width: 600px) {
@@ -8,6 +16,14 @@
 }
 }
 
+/* botoes Do email */
+@media only screen and (max-width: 600px) {
+.bb {
+
+  margin-bottom: 1em;
+
+  }
+}
 /* Estilos para telas maiores */
 .heading-jumbo .titular {
   margin-left: 0.5em;
@@ -127,7 +143,7 @@ p{
 .introContainer{
 
   animation-name: anima_introContainer;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: initial;
   
 }
