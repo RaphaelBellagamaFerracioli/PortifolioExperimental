@@ -179,3 +179,18 @@ p{
     animation-iteration-count: 6;
 
 }
+
+
+/* Estilos para os ícones */
+.iconesPagina {
+    position: fixed;
+    top: 90%; /* Ajuste esta propriedade para posicionar verticalmente os ícones */
+    right: 10px; /* Ajuste esta propriedade para posicionar horizontalmente os ícones */
+    transform: translateY(-50%); /* Para centralizar verticalmente os ícones */
+    list-style: none;
+    padding: 0;
+}
+.iconesPagina li {
+  margin: 5px;
+  display: inline-block;
+}

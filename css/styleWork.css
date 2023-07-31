@@ -128,7 +128,36 @@
         background-image: url('https://picsum.photos/id/1015/1500/1000');
       }
     }
-  
+    .overlay-text {
+      /* position: absolute; */
+      top: 5%;
+      /* left: 5%; */
+      /* transform: translate(-50%, -50%); */
+      /* text-align: center; */
+      color: black;
+      margin-top: -27em;
+      margin-top: -27em;
+    }
+    
+    .overlay-heading {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .overlay-heading{
+        font-size: 30px;
+
+      }
+     
+
+    }
+    
+    .overlay-subtitle {
+      color: #909293;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
 /* Animaçoes acima */
 .card {
 
