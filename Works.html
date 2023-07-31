@@ -49,7 +49,8 @@
                 </div>
 
                 <div class="col-7  position-absolute  top-0 end-0" style=" display: flex;align-items: baseline;margin-top: 2.5em;">
-                  <P style="margin-left: auto; padding: inherit;">Meu Contato</P>
+                  <a style="margin-left: auto;padding: inherit;text-decoration: none;color: black;" href="#footer">Meu Contato</a>
+                  
                   <a href="./Works.html"><button type="button"  class="botao btn btn-dark" style=" height:43px;font-size: large;">Trabalhos</button></a>
                 </div>
 
@@ -79,7 +80,7 @@
                 </div>
 
                 <div class="col-xl-12 col-12 col-md-12 col-sm-10 text-center mb-5">
-                  <p class="overlay-subtitle  font-weight-bolder">Venha visitar meu perfil no Linkedin</p>
+                  <p class="overlay-subtitle  font-weight-bolder">Venha visitar meu perfil no <a href="">Linkedin</a></p>
                 </div>
 
               </div>
@@ -107,11 +108,13 @@
                         position: static;
                         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                         ">
-                        <a href="./card1.html">
-                          <img src="https://i.imgur.com/ZTkt4I5.jpg" class="img-fluid" alt="...">
+                        <a href="./card1.html"style="text-decoration: none;
+                        color: black;">
+                          
                             <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                              <img src="https://th.bing.com/th/id/OIP.fpxGRSZpaFi_W9xjwrVtkwHaHa?pid=ImgDet&rs=1" class="img-fluid col-xl-9" alt="...">
+                            <h5 class="card-title">Projeto Vitalita</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Desenvolvimento 2023</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="card-link">Card link</a>
                             <a href="#" class="card-link">Another link</a>
@@ -126,11 +129,13 @@
                         position: static;
                         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                         ">
-                        <a href="./card2.html">
-                          <img src="https://i.imgur.com/ZTkt4I5.jpg" class="img-fluid" alt="...">
+                        <a href="./card2.html" style="text-decoration: none;
+                        color: black;">
+                         
                             <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                              <img src="https://i.imgur.com/ZTkt4I5.jpg" class="img-fluid" alt="...">
+                            <h5 class="card-title">Projeto Crud</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Desenvolvido em 2023</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="card-link">Card link</a>
                             <a href="#" class="card-link">Another link</a>
@@ -147,14 +152,17 @@
                         position: static;
                         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                         ">
-                        <a href="./card3.html">
-                          <img src="https://i.imgur.com/ZTkt4I5.jpg" class="img-fluid" alt="...">
-                            <div class="card-body" style="background:https://i.imgur.com/ZTkt4I5.jpg">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                        <a href="./card3.html" style="text-decoration: none;
+                        color: black;">
+                           <div class="card-body">
+
+                            <img src="https://i.imgur.com/ZTkt4I5.jpg" class="img-fluid" alt="...">
+                           
+                            <h5 class="card-title">Site Trynity Sports</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Desenvolvido de 2020-2021</h6>
+                            <p class="card-text">Projeto criado para fins de estudo e aprendizado no framework ASP.Net</p>
+                            <a href="#" class="card-link">Link para o projeto Git</a>
+                            <a href="#" class="card-link">Projeto</a>
                             </div>
                         </div>
                       </a>
@@ -163,7 +171,7 @@
 
                 </div>
           <br>
-          <footer class="py-3 my-9">
+          <footer class="py-3 my-9 "id="footer">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"></use></svg></a></li>
               <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#discord"></use></svg></a></li>
@@ -174,7 +182,40 @@
             </ul>  
             <p class="text-center text-muted">© 2023 Company Raphael Bellagama Ferracioli, Inc number 19 995267199</p>
           </footer>
-       
-        <script src="" async defer></script>
+
+       <!--Inicio do JavaScript-->
+          <script>
+                    // Easing function
+            Math.easeOutQuad = function (t, b, c, d) {
+              t /= d;
+              return -c * t * (t - 2) + b;
+            };
+
+            document.addEventListener("DOMContentLoaded", function () {
+              const contactLink = document.querySelector('a[href="#footer"]');
+
+              contactLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                const footer = document.getElementById("footer");
+                const footerOffset = footer.offsetTop;
+                const duration = 2000; // Adjust the duration of the scroll (in milliseconds)
+
+                const start = window.pageYOffset;
+                const change = footerOffset - start;
+                let currentTime = 0;
+
+                function animateScroll() {
+                  currentTime += 16; // Approx. 60 FPS
+                  const newPosition = Math.easeOutQuad(currentTime, start, change, duration);
+                  window.scroll(0, newPosition);
+                  if (currentTime < duration) {
+                    requestAnimationFrame(animateScroll);
+                  }
+                }
+
+                animateScroll();
+              });
+            });
+          </script>
     </body>
 </html>
