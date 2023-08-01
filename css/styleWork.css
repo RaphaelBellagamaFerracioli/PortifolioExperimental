@@ -145,7 +145,7 @@
     }
     @media (max-width: 768px) {
       .overlay-heading{
-        font-size: 30px;
+        font-size: 37px;
 
       }
      
@@ -174,3 +174,6 @@
         width: 100%;
     }
 }
+
+
+
